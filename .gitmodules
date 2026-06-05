@@ -1,0 +1,3 @@
+[submodule "Core/Vendor/glfw"]
+	path = Core/Vendor/glfw
+	url = https://github.com/glfw/glfw
