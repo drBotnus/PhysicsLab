@@ -5,6 +5,9 @@ cmake_minimum_required (VERSION 3.20)
 
 project (PhysicsLab VERSION 1.0 LANGUAGES CXX)
 
+set(Vulkan_INCLUDE_DIR "$ENV{VULKAN_SDK}/Include")
+set(Vulkan_LIBRARY "$ENV{VULKAN_SDK}/Lib/vulkan-1.lib")
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 

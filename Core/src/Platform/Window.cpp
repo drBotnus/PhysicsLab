@@ -12,6 +12,7 @@ bool Window::Init()
 	}
 
 	::glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+	::glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
 	m_NativeWindow = ::glfwCreateWindow(1280, 720, "Physics Lab", nullptr, nullptr);
 

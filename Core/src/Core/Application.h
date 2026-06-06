@@ -23,6 +23,10 @@ public:
     void Run();
     
 	void PushLayer(Layer* layer);
+
+private:
+	void TestBuffer();
+
 private:
 	bool m_Running = true;
 

@@ -1,3 +1,6 @@
 [submodule "Core/Vendor/glfw"]
 	path = Core/Vendor/glfw
 	url = https://github.com/glfw/glfw
+[submodule "Core/Vendor/vk-bootstrap"]
+	path = Core/Vendor/vk-bootstrap
+	url = https://github.com/charles-lunarg/vk-bootstrap

@@ -1,4 +1,5 @@
 #pragma once
+#include <GLFW/glfw3.h>
 
 namespace Core {
 
@@ -11,6 +12,11 @@ public:
 	void OnUpdate();
 
 	bool ShouldClose() const;
+
+	::GLFWwindow* GetGLFWWindow() const
+	{
+		return static_cast<::GLFWwindow*>(m_NativeWindow);
+	}
 
 	void* GetNativeWindow() const
 	{
